@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>name</key>
+    <string>Moonlight II</string>
+    <key>settings</key>
+    <array>
+      <dict>
+        <key>settings</key>
+        <dict>
+          <key>caret</key>
+          <string>--moonlight-blue</string>
+          <key>selection</key>
+          <string>--moonlight-gray-750</string>
+          <key>lineHighlight</key>
+          <string>--moonlight-gray-5</string>
+          <key>foreground</key>
+          <string>--moonlight-gray-10</string>
+          <key>background</key>
+          <string>--moonlight-gray-4</string>
+          <key>invisibles</key>
+          <string>--moonlight-gray-1040</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Comment</string>
+        <key>scope</key>
+        <string>comment,punctuation.definition.comment,string.quoted.docstring</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-indigo</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Variables and Plain Text</string>
+        <key>scope</key>
+        <string>variable,support.variable,string constant.other.placeholder,text.html</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-gray-10</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>DOM Variables</string>
+        <key>scope</key>
+        <string>support.variable.dom,support.constant.math,support.type.object.module,support.variable.object.process,support.constant.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-yellow</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Nil</string>
+        <key>scope</key>
+        <string>constant.language.undefined,constant.language.null</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-desaturated-gray</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>PHP Constants</string>
+        <key>scope</key>
+        <string>constant.other.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-yellow</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Colors</string>
+        <key>scope</key>
+        <string>constant.other.color</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ffffff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Invalid</string>
+        <key>scope</key>
+        <string>invalid,invalid.illegal</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-dark-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Invalid deprecated</string>
+        <key>scope</key>
+        <string>invalid.deprecated</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-purple</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keyword, Storage</string>
+        <key>scope</key>
+        <string>keyword,storage.type,storage.modifier,keyword.other.important</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-purple</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keyword, Storage</string>
+        <key>scope</key>
+        <string>keyword.control,storage</string>
+        <key>settings</key>
+        <dict/>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Interpolation</string>
+        <key>scope</key>
+        <string>punctuation.definition.template-expression,punctuation.section.embedded</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-cyan</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Spread</string>
+        <key>scope</key>
+        <string>keyword.operator.spread,keyword.operator.rest</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Operator, Misc</string>
+        <key>scope</key>
+        <string>keyword.operator,keyword.control,punctuation,punctuation.definition.string,punctuation.support.type.property-name,text.html.vue-html meta.tag,punctuation.definition.keyword,punctuation.terminator.rule,punctuation.definition.entity,constant.other.color,meta.tag,punctuation.definition.tag,punctuation.separator.inheritance.php,punctuation.definition.block.tag,punctuation.definition.tag.html,punctuation.definition.tag.begin.html,punctuation.definition.tag.end.html,meta.property-list,meta.brace.square,keyword.other.template,keyword.other.substitution</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-cyan</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keyword Control</string>
+        <key>scope</key>
+        <string>keyword.control</string>
+        <key>settings</key>
+        <dict/>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Tag</string>
+        <key>scope</key>
+        <string>entity.name.tag,meta.tag,markup.deleted.git_gutter</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Function, Special Method</string>
+        <key>scope</key>
+        <string>entity.name.function,variable.function,keyword.other.special-method</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-blue</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Support Function</string>
+        <key>scope</key>
+        <string>support.function,meta.function-call entity.name.function</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-sky-blue</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>C-related Block Level Variables</string>
+        <key>scope</key>
+        <string>source.cpp meta.block variable.other</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Other Variable, String Link</string>
+        <key>scope</key>
+        <string>support.other.variable,string.other.link</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Constant, Function Argument, Tag Attribute, Embedded</string>
+        <key>scope</key>
+        <string>variable.other.constant,constant.language,keyword.other.type.php,storage.type.php,support.constant,constant.character,constant.escape,keyword.other.unit</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-light-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Number, Boolean</string>
+        <key>scope</key>
+        <string>constant.numeric,constant.language.boolean,constant.language.json,constant.language.infinity,constant.language.nan</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-orange</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Function Argument</string>
+        <key>scope</key>
+        <string>variable.parameter.function.language.special,variable.parameter,meta.function.parameter variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-pink</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>String, Symbols, Inherited Class, Markup Heading</string>
+        <key>scope</key>
+        <string>string,constant.other.symbol,constant.other.key,entity.other.inherited-class,markup.heading,markup.inserted.git_gutter,meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js,meta.attribute-selector</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string/>
+          <key>foreground</key>
+          <string>--moonlight-green</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Object</string>
+        <key>scope</key>
+        <string>variable.other.object</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-yellow</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Object Key</string>
+        <key>scope</key>
+        <string>meta.object-literal.key,string.alias.graphql,string.unquoted.graphql,string.unquoted.alias.graphql,meta.field.declaration.ts variable.object.property,variable.object.property</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-teal</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Nested Object Property</string>
+        <key>scope</key>
+        <string>meta.object.member,variable.other.object.property</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-gray-8</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Object Property</string>
+        <key>scope</key>
+        <string>variable.other.property,support.variable.property,support.variable.property.dom</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-gray-8</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Haskell Constants</string>
+        <key>scope</key>
+        <string>source.haskell constant.other.haskell</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-light-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Haskell Imports</string>
+        <key>scope</key>
+        <string>source.haskell meta.import.haskell entity.name.namespace</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-gray-10</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Types Fixes</string>
+        <key>scope</key>
+        <string>source.haskell storage.type,source.c storage.type,source.java storage.type</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-yellow</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Lambda Arrow</string>
+        <key>scope</key>
+        <string>storage.type.function</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-purple</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Class, Support</string>
+        <key>scope</key>
+        <string>entity.name,support.type,support.class,support.orther.namespace.use.php,meta.use.php,support.other.namespace.php,markup.changed.git_gutter,support.type.sys-types</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-yellow</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Entity types</string>
+        <key>scope</key>
+        <string>support.type</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-orange</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Class and Support</string>
+        <key>scope</key>
+        <string>source.css support.type.property-name,source.sass support.type.property-name,source.scss support.type.property-name,source.less support.type.property-name,source.stylus support.type.property-name,source.postcss support.type.property-name,support.type.property-name.css,support.type.vendored.property-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-blue</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Sub-methods</string>
+        <key>scope</key>
+        <string>entity.name.module.js,variable.import.parameter.js,variable.other.class.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Language methods</string>
+        <key>scope</key>
+        <string>variable.language</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>entity.name.method.js</string>
+        <key>scope</key>
+        <string>entity.name.method.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-blue</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>meta.method.js</string>
+        <key>scope</key>
+        <string>meta.class-method.js entity.name.function.js,variable.function.constructor</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-blue</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Attributes</string>
+        <key>scope</key>
+        <string>entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-purple</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>HTML Attributes</string>
+        <key>scope</key>
+        <string>text.html.basic entity.other.attribute-name.html,text.html.basic entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-yellow</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>HTML Doctype</string>
+        <key>scope</key>
+        <string>meta.tag.metadata.doctype entity.name.tag,meta.tag.metadata.doctype entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-purple</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Classes</string>
+        <key>scope</key>
+        <string>entity.other.attribute-name.class</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-yellow</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS ID's</string>
+        <key>scope</key>
+        <string>source.sass keyword.control</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-blue</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS psuedo selectors</string>
+        <key>scope</key>
+        <string>entity.other.attribute-name.pseudo-class,entity.other.attribute-name.pseudo-element</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-teal</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Property value</string>
+        <key>scope</key>
+        <string>support.constant.property-value</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-pink</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Inserted</string>
+        <key>scope</key>
+        <string>markup.inserted</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-green</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Deleted</string>
+        <key>scope</key>
+        <string>markup.deleted</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Changed</string>
+        <key>scope</key>
+        <string>markup.changed</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-purple</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Regular Expressions</string>
+        <key>scope</key>
+        <string>string.regexp</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-bright-cyan</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Regular Expressions - Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.group</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Regular Expressions - Character Class</string>
+        <key>scope</key>
+        <string>constant.other.character-class.regexp,keyword.control.anchor.regexp</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-purple</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Regular Expressions - Character Class Set</string>
+        <key>scope</key>
+        <string>constant.other.character-class.set.regexp</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-yellow</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Regular Expressions - Quantifier</string>
+        <key>scope</key>
+        <string>keyword.operator.quantifier.regexp</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-pink</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Escape Characters</string>
+        <key>scope</key>
+        <string>constant.character.escape</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-cyan</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>URL</string>
+        <key>scope</key>
+        <string>*url*,*link*,*uri*</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>underline</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Decorators</string>
+        <key>scope</key>
+        <string>tag.decorator.js entity.name.tag.js,tag.decorator.js punctuation.definition.tag.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-blue</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Units</string>
+        <key>scope</key>
+        <string>keyword.other.unit</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-dark-orange</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>ES7 Bind Operator</string>
+        <key>scope</key>
+        <string>source.js constant.other.object.key.js string.unquoted.label.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON Key - Level 0</string>
+        <key>scope</key>
+        <string>source.json meta.structure.dictionary.json support.type.property-name.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-blue</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON Key - Level 1</string>
+        <key>scope</key>
+        <string>source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-sky-blue</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON Key - Level 2</string>
+        <key>scope</key>
+        <string>source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON Key - Level 3</string>
+        <key>scope</key>
+        <string>source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-pink</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON Key - Level 4</string>
+        <key>scope</key>
+        <string>source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-yellow</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON Key - Level 5</string>
+        <key>scope</key>
+        <string>source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-teal</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON Key - Level 6</string>
+        <key>scope</key>
+        <string>source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-blue</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Plain Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.list_item.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-gray-7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Block Punctuation</string>
+        <key>scope</key>
+        <string>meta.block,meta.brace,punctuation.definition.block,punctuation.definition.parameters,punctuation.section.function</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-gray-9</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown - Plain</string>
+        <key>scope</key>
+        <string>meta.jsx.children,meta.embedded.block</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-gray-9</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown - Markup Raw Inline</string>
+        <key>scope</key>
+        <string>text.html.markdown markup.inline.raw.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-purple</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown - Markup Raw Inline Punctuation</string>
+        <key>scope</key>
+        <string>text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-cyan</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown - Heading punctuation</string>
+        <key>scope</key>
+        <string>markdown.heading,markup.heading | markup.heading entity.name,markup.heading.markdown punctuation.definition.heading.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-cyan</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markup - Italic</string>
+        <key>scope</key>
+        <string>markup.italic</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>italic</string>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markup - Bold</string>
+        <key>scope</key>
+        <string>markup.bold,markup.bold string</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>bold</string>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markup - Bold-Italic</string>
+        <key>scope</key>
+        <string>markup.bold markup.italic,markup.italic markup.bold,markup.quote markup.bold,markup.bold markup.italic string,markup.italic markup.bold string,markup.quote markup.bold string</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>bold</string>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markup - Underline</string>
+        <key>scope</key>
+        <string>markup.underline</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>underline</string>
+          <key>foreground</key>
+          <string>--moonlight-orange</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown - Blockquote</string>
+        <key>scope</key>
+        <string>markup.quote punctuation.definition.blockquote.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-cyan</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markup - Quote</string>
+        <key>scope</key>
+        <string>markup.quote</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown - Link</string>
+        <key>scope</key>
+        <string>string.other.link.title.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-blue</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown - Link Description</string>
+        <key>scope</key>
+        <string>string.other.link.description.title.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-purple</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown - Link Anchor</string>
+        <key>scope</key>
+        <string>constant.other.reference.link.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-yellow</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markup - Raw Block</string>
+        <key>scope</key>
+        <string>markup.raw.block</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-purple</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown - Fenced Bode Block Variable</string>
+        <key>scope</key>
+        <string>markup.fenced_code.block.markdown,markup.inline.raw.string.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-cyan</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown - Fenced Language</string>
+        <key>scope</key>
+        <string>variable.language.fenced.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-cyan</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown - Separator</string>
+        <key>scope</key>
+        <string>meta.separator</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>bold</string>
+          <key>foreground</key>
+          <string>--moonlight-cyan</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markup - Table</string>
+        <key>scope</key>
+        <string>markup.table</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-gray-7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>token.info-token</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-sky-blue</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>token.warn-token</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-yellow</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>token.error-token</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>token.debug-token</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-purple</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Go package name</string>
+        <key>scope</key>
+        <string>source.go entity.name.package</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-gray-10</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Go package imports</string>
+        <key>scope</key>
+        <string>source.go entity.name.import</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-green</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Go constant placeholder</string>
+        <key>scope</key>
+        <string>source.go constant.other.placeholder</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-light-red</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Go language constant</string>
+        <key>scope</key>
+        <string>source.go constant.language</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-purple</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Go types</string>
+        <key>scope</key>
+        <string>source.go storage.type</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-teal</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Go variable declaration and assignment</string>
+        <key>scope</key>
+        <string>source.go variable.other.assignment,source.go variable.other.declaration</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>--moonlight-light-red</string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>
